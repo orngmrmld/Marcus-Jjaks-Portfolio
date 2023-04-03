@@ -43,14 +43,55 @@ a {
 
 main {
     width: auto;
-    display:inline-block;
+    display: block;
+
     margin-left: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    justify-content: right;
 }
 
 main article {
     margin-bottom: 20px;
     padding: 50px;
-    height: 30px;
+    height: 300px;
+    font-size: small;
     font-family:'Courier New', Courier, monospace;
     background-color:darkolivegreen;
+}
+
+main aside img{
+    display: flex;
+    margin: 10px auto;
+    max-width: 150px;
+    flex-direction: row;
+}
+
+main aside{
+    justify-content: right;
+}
+
+main aside li{
+    display: inline-block;
+    justify-content: right;
+    max-width:fit-content;
+    align-content: baseline;
+    background-color: aqua;
+}
+
+.recent-work{
+    justify-content: right;
+}
+
+img {
+    max-height: 200px;
+
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 36px;
 }
