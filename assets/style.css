@@ -66,25 +66,22 @@ main article {
 main aside img{
     display: flex;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
     flex-direction: row;
 }
 
 main aside{
+    float: right;
     justify-content: right;
 }
 
 main aside li{
     display: inline-block;
-    justify-content: right;
     max-width:fit-content;
     align-content: baseline;
     background-color: aqua;
 }
 
-.recent-work{
-    justify-content: right;
-}
 
 img {
     max-height: 200px;
