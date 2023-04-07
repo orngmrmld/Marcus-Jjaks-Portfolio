@@ -65,7 +65,7 @@ main article {
 
 main aside img{
     display: flex;
-    margin: 10px auto;
+    margin: 15px auto;
     max-width: 200px;
     flex-direction: row;
 }
